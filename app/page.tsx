@@ -1,65 +1,173 @@
-import Image from "next/image";
+"use client";
+
+import TerminalLayout from "@/components/TerminalLayout";
+import TerminalSection from "@/components/TerminalSection";
+import Reveal from "@/components/Reveal";
+import Link from "next/link";
 
 export default function Home() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+    return (
+        <TerminalLayout>
+            <div className="space-y-10">
+
+                {/* HERO */}
+                <Reveal delay={0}>
+                    <div className="flex flex-col md:flex-row md:items-center gap-25">
+
+                        {/* LEFT SIDE (text) */}
+                        <div className="space-y-4 flex-1 max-w-xl">
+                            <p className="text-green-500">akshansh@system:~$ whoami</p>
+
+                            <div>
+                                <h1 className="text-3xl text-green-300">Akshansh Jain</h1>
+                                <p className="text-green-500">
+                                    Backend Engineer & System Architect
+                                </p>
+                            </div>
+
+                            <p className="text-green-400">
+                                I design scalable systems that don’t break under load.
+                            </p>
+                        </div>
+
+                        {/* RIGHT SIDE (image) */}
+                        <div className="flex-shrink-0 mt-2 md:ml-6 translate-y-6">
+                            <div
+                                className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border border-green-500/20 shadow-[0_0_25px_rgba(34,197,94,0.15)]">
+
+                                <img
+                                    src="/profile.png"
+                                    alt="Akshansh"
+                                    className="w-full h-full object-cover"
+                                />
+
+                            </div>
+                        </div>
+
+                    </div>
+                </Reveal>
+
+                {/* BUTTONS */}
+                <Reveal delay={150}>
+                    <div>
+
+                        <div className="flex gap-4 flex-wrap">
+                            <Link href="/about">
+                                <button
+                                    className="border border-green-500/20 px-4 py-1.5 rounded-md hover:bg-green-500/10 hover:border-green-400/40 transition hover:shadow-[0_0_10px_rgba(34,197,94,0.2)] cursor-pointer"
+                                >
+                                    &gt; about
+                                </button>
+                            </Link>
+
+                            <Link href="/skills">
+                                <button
+                                    className="border border-green-500/20 px-4 py-1.5 rounded-md hover:bg-green-500/10 hover:border-green-400/40 transition hover:shadow-[0_0_10px_rgba(34,197,94,0.2)] cursor-pointer"
+                                >
+                                    &gt; skills
+                                </button>
+                            </Link>
+
+                            <Link href="/work">
+                                <button
+                                    className="border border-green-500/20 px-4 py-1.5 rounded-md hover:bg-green-500/10 hover:border-green-400/40 transition hover:shadow-[0_0_10px_rgba(34,197,94,0.2)] cursor-pointer"
+                                >
+                                    &gt; work
+                                </button>
+                            </Link>
+
+                            <Link href="/contact">
+                                <button
+                                    className="border border-green-500/20 px-4 py-1.5 rounded-md hover:bg-green-500/10 hover:border-green-400/40 transition hover:shadow-[0_0_10px_rgba(34,197,94,0.2)] cursor-pointer"
+                                >
+                                    &gt; contact
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
+                </Reveal>
+
+                {/* PANELS */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                    <Reveal delay={300}>
+                        <div id="about">
+                            <TerminalSection title="about">
+                                <p>
+                                    I’m a backend engineer with 9+ years of experience building
+                                    scalable systems, microservices, and data-intensive platforms.
+                                </p>
+                                <p className="mt-2">
+                                    I enjoy solving complex problems, designing clean APIs,
+                                    and working with systems that have real impact.
+                                </p>
+                            </TerminalSection>
+                        </div>
+                    </Reveal>
+
+                    <Reveal delay={450}>
+                        <div id="skills">
+                            <TerminalSection title="skills">
+                                <p>
+                                    <span className="text-green-400">Languages:</span> Java, Kotlin
+                                </p>
+                                <p>
+                                    <span className="text-green-400">Backend:</span> Spring Boot, Microservices
+                                </p>
+                                <p>
+                                    <span className="text-green-400">Data:</span> PostgreSQL, MongoDB, Elasticsearch
+                                </p>
+                                <p>
+                                    <span className="text-green-400">Messaging:</span> Kafka
+                                </p>
+                                <p>
+                                    <span className="text-green-400">Infra:</span> Docker, Kubernetes
+                                </p>
+                            </TerminalSection>
+                        </div>
+                    </Reveal>
+
+                    <Reveal delay={600}>
+                        <div id="work">
+                            <TerminalSection title="work">
+                                <p className="text-green-400">
+                                    Ixigo — Senior Software Engineer
+                                </p>
+                                <p className="mb-2">
+                                    Built payment and reconciliation systems handling millions of transactions.
+                                </p>
+
+                                <p className="text-green-400">
+                                    Ontic — Software Engineer
+                                </p>
+                                <p>
+                                    Worked on multi-tenant platform with dynamic schemas and optimized queries.
+                                </p>
+                            </TerminalSection>
+                        </div>
+                    </Reveal>
+
+                    <Reveal delay={750}>
+                        <div id="contact">
+                            <TerminalSection title="contact">
+                                <p>Email: hello@akshansh.dev</p>
+                                <p>GitHub: github.com/akshansh</p>
+                                <p>LinkedIn: linkedin.com/in/akshansh</p>
+                                <p className="mt-2">Let’s build something impactful.</p>
+                            </TerminalSection>
+                        </div>
+                    </Reveal>
+
+                </div>
+
+                {/* CURSOR */}
+                <Reveal delay={900}>
+                    <p className="text-green-500 mt-4">
+                        &gt; <span className="cursor"></span>
+                    </p>
+                </Reveal>
+
+            </div>
+        </TerminalLayout>
+    );
 }
