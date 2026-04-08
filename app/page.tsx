@@ -150,9 +150,9 @@ export default function Home() {
                     <Reveal delay={750}>
                         <div id="contact">
                             <TerminalSection title="contact">
-                                <p>Email: hello@akshansh.dev</p>
-                                <p>GitHub: github.com/akshansh</p>
-                                <p>LinkedIn: linkedin.com/in/akshansh</p>
+                                <p>Email: akshansh95jain@gmail.com</p>
+                                <p>GitHub: https://github.com/akshanshjain95</p>
+                                <p>LinkedIn: https://www.linkedin.com/in/akshansh-jain</p>
                                 <p className="mt-2">Let’s build something impactful.</p>
                             </TerminalSection>
                         </div>

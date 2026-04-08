@@ -21,13 +21,13 @@ I design scalable systems that don’t break under load.
 \x1b[38;5;240m└──────────────────────────┘\x1b[0m  \x1b[38;5;240m└──────────────────────────┘\x1b[0m
 
 \x1b[38;5;114mWork\x1b[0m                          \x1b[38;5;114mContact\x1b[0m
-\x1b[38;5;240m┌──────────────────────────┐\x1b[0m  \x1b[38;5;240m┌──────────────────────────┐\x1b[0m
-\x1b[38;5;240m│\x1b[0m Ixigo — Payments         \x1b[38;5;240m│\x1b[0m  \x1b[38;5;240m│\x1b[0m Email: hello@...         \x1b[38;5;240m│\x1b[0m
-\x1b[38;5;240m│\x1b[0m High-scale transactions  \x1b[38;5;240m│\x1b[0m  \x1b[38;5;240m│\x1b[0m GitHub: github/...       \x1b[38;5;240m│\x1b[0m
-\x1b[38;5;240m│\x1b[0m                          \x1b[38;5;240m│\x1b[0m  \x1b[38;5;240m│\x1b[0m LinkedIn: linkedin/...   \x1b[38;5;240m│\x1b[0m
-\x1b[38;5;240m│\x1b[0m Ontic — Multi-tenant     \x1b[38;5;240m│\x1b[0m  \x1b[38;5;240m│\x1b[0m                          \x1b[38;5;240m│\x1b[0m
-\x1b[38;5;240m│\x1b[0m Data platforms           \x1b[38;5;240m│\x1b[0m  \x1b[38;5;240m│\x1b[0m Let’s build something    \x1b[38;5;240m│\x1b[0m
-\x1b[38;5;240m└──────────────────────────┘\x1b[0m  \x1b[38;5;240m└──────────────────────────┘\x1b[0m
+\x1b[38;5;240m┌──────────────────────────┐\x1b[0m  \x1b[38;5;240m┌─────────────────────────────────────────┐\x1b[0m
+\x1b[38;5;240m│\x1b[0m Ixigo — Payments         \x1b[38;5;240m│\x1b[0m  \x1b[38;5;240m│\x1b[0m Email: akshansh95jain@gmail.com         \x1b[38;5;240m│\x1b[0m
+\x1b[38;5;240m│\x1b[0m High-scale transactions  \x1b[38;5;240m│\x1b[0m  \x1b[38;5;240m│\x1b[0m GitHub: github.com/akshanshjain95       \x1b[38;5;240m│\x1b[0m
+\x1b[38;5;240m│\x1b[0m                          \x1b[38;5;240m│\x1b[0m  \x1b[38;5;240m│\x1b[0m LinkedIn: linkedin.com/in/akshansh-jain \x1b[38;5;240m│\x1b[0m
+\x1b[38;5;240m│\x1b[0m Ontic — Multi-tenant     \x1b[38;5;240m│\x1b[0m  \x1b[38;5;240m│\x1b[0m                                         \x1b[38;5;240m│\x1b[0m
+\x1b[38;5;240m│\x1b[0m Data platforms           \x1b[38;5;240m│\x1b[0m  \x1b[38;5;240m│\x1b[0m Let’s build something                   \x1b[38;5;240m│\x1b[0m
+\x1b[38;5;240m└──────────────────────────┘\x1b[0m  \x1b[38;5;240m└─────────────────────────────────────────┘\x1b[0m
 
 \x1b[38;5;240m────────────────────────────────────────────────────────────\x1b[0m
 
