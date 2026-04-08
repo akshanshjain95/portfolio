@@ -48,8 +48,8 @@ export default function ContactPage() {
 
                         <ContactItem
                             label="Email"
-                            value="akshansh.jain.dev@gmail.com"
-                            href="mailto:akshansh.jain.dev@gmail.com"
+                            value="akshansh95jain@gmail.com"
+                            href="mailto:akshansh95jain@gmail.com"
                         />
 
                         <ContactItem
@@ -60,8 +60,8 @@ export default function ContactPage() {
 
                         <ContactItem
                             label="GitHub"
-                            value="https://github.com/your-github-username"
-                            href="https://github.com/your-github-username"
+                            value="https://github.com/akshanshjain95"
+                            href="https://github.com/akshanshjain95"
                         />
 
                     </div>
