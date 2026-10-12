@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "npx --yes wrangler@4 dev",
+    "lint": "eslint",
+    "preview": "npx --yes wrangler@4 dev",
+    "deploy": "npm run build && npx --yes wrangler@4 deploy"
   },
   "dependencies": {
     "next": "16.2.2",
